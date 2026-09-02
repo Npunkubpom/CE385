@@ -87,9 +87,8 @@ console.table(result);
 
 const score1 = calculateWorkshopScore(48);
 const score2 = calculateWorkshopScore(48, 60, 20);
-const score3 = calculateWorkshopScore(48, undefined, 25);
 //score3 = ใส่ค่า full = undefined จะได้ค่า default ของ full = 60 และ weight = 25
-
+const score3 = calculateWorkshopScore(48, undefined, 25);
 console.log(score1);
 console.log(score2);
 console.log(score3);
