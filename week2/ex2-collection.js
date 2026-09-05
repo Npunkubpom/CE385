@@ -1,4 +1,4 @@
-students = [
+const students = [
     {
         id: 67112347,
         name: "Pun",
