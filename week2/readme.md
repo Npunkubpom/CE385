@@ -59,6 +59,7 @@ ex.4
     เอา contact ออกมาเก็บในตัวแปร contact ส่วนข้อมูลที่เหลือเอาไปเก็บใน publicData เผยแพร่ข้อมูลนักศึกษาโดยไม่เอาข้อมูลติดต่อออกไป
 
 ex-5 สร้างไฟลแยก
+    
     main.mjs 
         import { getAllStudents, findStudentById } from "./student-data.mjs";
         import { toGrade, isPassing, summarize } from "./student-service.mjs";
