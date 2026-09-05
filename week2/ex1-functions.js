@@ -30,7 +30,7 @@ function calculateTotal(WorkshopScore, attendance, project, midterm, final) {
   return total;
 }
 
-const student = [
+const students = [
     {
         name: "Pun",
         raw: 45,
@@ -57,7 +57,7 @@ const student = [
     }
 ];
 
-const result = student.map((student) => {
+const result = students.map((student) => {
     const workshopScore =
         calculateWorkshopScore(student.raw);
     const total =

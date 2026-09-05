@@ -35,7 +35,7 @@ correctCopy.contact.email = "correct@dpu.ac.th";
 console.log("correctCopy email:", correctCopy.contact.email);
 console.log("merged email:", merged.contact.email);
 
-const formatStudent = ({name,score,grade,major = "ไม่ระบุ",}) => {
+const formatStudent = ({name,score,grade,major = "ไม่ระบุ"}) => {
     return `${name} (${major}) - คะแนน ${score} - เกรด ${grade}`;
 };
 

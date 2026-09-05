@@ -105,7 +105,7 @@ const getTopStudent = (students) => {
     });
 };
 console.log(getNames(students))
-console.log(PassedStudents(students))
+console.log(PassedStudents(students))   
 console.log(getTotalScore(students))
 console.log(getAverageScore(students))
 console.log(countByGrade(students))
